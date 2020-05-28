@@ -35,7 +35,7 @@
        1.1- Choisir Pure Python
        1.2- Choisir pour Base interpreter le chemin vers l’interpreter Python 3.7.7
             exemple: usr/bin/python3.7
-    2- Dans location, lui donner le nom : seminaire_boto3
+    2- Dans location, lui donner le nom : seminaire_cours_boto3
     3- Cliquer en bas sur Terminal > Écrire la commande suivant :  pip --version (Vérifier, si pip est installé)
     4- Si pip n'est pas installé
        5.1- Cliquer en bas sur Terminal > Écrire la commande suivant : sudo apt install python3-pip
@@ -97,7 +97,7 @@
        1.1- Choisir Pure Python
        1.2- Choisir pour Python interpreter le chemin vers l’interpreter Python 3.7.7
             exemple: usr/bin/python3.7
-    2- Dans location, lui donner le nom : seminaire_boto3
+    2- Dans location, lui donner le nom : seminaire_cours_boto3
         
 #### Installer Boto3
     1- Aller dans Pycharm
