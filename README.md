@@ -35,20 +35,9 @@
        1.1- Choisir Pure Python
        1.2- Choisir pour Base interpreter le chemin vers l’interpreter Python 3.7.7
             exemple: usr/bin/python3.7
-    2- Aller dans PyCharm sous Project sur undefined
-        2.1- Cliquer en-haut sur Refactor
-        2.2- Cliquer sur Rename 
-        2.3- Cliquer sur Rename directory
-        2.4- Remplacer undefined par seminaire_boto3
-        2.5- Cliquer Refactor
-    3- Aller dans PyCharm sous Project sur undefined
-        3.1- Cliquer en-haut sur Refactor
-        3.2- Cliquer sur Rename 
-        3.3- Cliquer sur Rename project
-        3.4- Remplacer undefined par boto3
-        3.5- Cliquer Refactor
-    4- Cliquer en bas sur Terminal > Écrire la commande suivant :  pip --version (Vérifier, si pip est installé)
-    5- Si pip n'est pas installé
+    2- Dans location, lui donner le nom : seminaire_boto3
+    3- Cliquer en bas sur Terminal > Écrire la commande suivant :  pip --version (Vérifier, si pip est installé)
+    4- Si pip n'est pas installé
        5.1- Cliquer en bas sur Terminal > Écrire la commande suivant : sudo apt install python3-pip
        5.2- Refaire étape 4
        
@@ -69,6 +58,9 @@
        5.4- Dans Format entrer: json
        5.5- cat ~/.aws/config (Vérification de la région et du format)
        5.6- cat ~/.aws/credentials (Vérification du Access Key ID et du Secret Key ID)
+       
+#### Tester, si tout fonctionne
+   1- Suivre les étapes dans le Wiki - Test Boto3
        
 ### Installation sur Windows 10
 
@@ -92,7 +84,7 @@
        6.1- Écrire python --version (Vérifier la version de Python)
        6.2- Écrire pip --version (Vérifier, si pip est installé)
     
-#### Installation de pip (S’il n’est pas présent dans PyCharm)
+#### Installation de pip (S’il n’est pas présent dans votre projet PyCharm)
     1- Aller télécharger pip http://bootstrap.pypa.io/get-pip.py
     2- Enregistrer le script sous C:\Program Files\Python37\Script
     3- Ouvrir un Command Prompt
@@ -105,18 +97,7 @@
        1.1- Choisir Pure Python
        1.2- Choisir pour Python interpreter le chemin vers l’interpreter Python 3.7.7
             exemple: usr/bin/python3.7
-    2- Aller dans PyCharm sous Project sur undefined
-        2.1- Cliquer en-haut sur Refactor
-        2.2- Cliquer sur Rename 
-        2.3- Cliquer sur Rename directory
-        2.4- Remplacer undefined par seminaire_boto3
-        2.5- Cliquer Refactor
-    3- Aller dans PyCharm sous Project sur undefined
-        3.1- Cliquer en-haut sur Refactor
-        3.2- Cliquer sur Rename 
-        3.3- Cliquer sur Rename project
-        3.4- Remplacer undefined par boto3
-        3.5- Cliquer Refactor
+    2- Dans location, lui donner le nom : seminaire_boto3
         
 #### Installer Boto3
     1- Aller dans Pycharm
@@ -133,4 +114,7 @@
        4.3- Entrer Secret Key ID
        4.4- Dans Region entrer: ca-central-1
        4.5- Dans Format entrer: JSON
+       
+#### Tester, si tout fonctionne
+   1- Suivre les étapes dans le Wiki - Test Boto3
 
