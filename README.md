@@ -70,42 +70,6 @@
        5.5- cat ~/.aws/config (Vérification de la région et du format)
        5.6- cat ~/.aws/credentials (Vérification du Access Key ID et du Secret Key ID)
        
-#### Configuration du projet
-    1- Aller dans Pycharm
-       1.1- Clic droit sur seminaire_boto3
-       1.2- New
-       1.3- Directory
-       1.4- Écrire le nom suivant:  src
-    2- Clic droit sur src
-       2.1- New
-       2.2- Directory
-       2.3- Écrire le nom suivant: python
-    3- Clic droit sur python
-       3.1- New
-       3.2- Python Package
-       3.3- Écrire le nom suivant: atelier
-    4- Clic droit sur atelier
-       4.1- New Python File
-       4.2- Écrire le nom suivant: atelier_seminaire.py
-    5- Clic droit sur atelier
-       4.1- New Python File
-       4.2- Écrire le nom suivant: atelier1.py
-    6- Clic droit sur atelier
-       4.1- New Python File
-       4.2- Écrire le nom suivant: atelier2.py
-#### Configuration pour lancer script Python
-    1- En-haut à droit cliquer sur Add Configuration...
-    2- En-haut à gauche cliquer sur le + 
-       2.1- Choisir Python
-       2.2- Dans Script Path aller chercher le fichier atelier_seminaire.py
-       2.3- Cliquer Apply
-       2.4- Cliquer OK
-       
-#### Test de la fonctionalité
-    1- Cliquer sur le atelier_seminaire.py
-    2- Copier le code du script test.py vers le script atelier_seminaire.py
-    3- Le résultat devrait donner: Hello, boto3! (Seminaire)
-       
 ### Installation sur Windows 10
 
 #### Installation de PyCharm
@@ -169,41 +133,4 @@
        4.3- Entrer Secret Key ID
        4.4- Dans Region entrer: ca-central-1
        4.5- Dans Format entrer: JSON
-       
-#### Configuration du projet
-    1- Aller dans Pycharm
-       1.1- Clic droit sur seminaire_boto3
-       1.2- New
-       1.3- Directory
-       1.4- Écrire le nom suivant:  src
-    2- Clic droit sur src
-       2.1- New
-       2.2- Directory
-       2.3- Écrire le nom suivant: python
-    3- Clic droit sur python
-       3.1- New
-       3.2- Python Package
-       3.3- Écrire le nom suivant: atelier
-    4- Clic droit sur atelier
-       4.1- New Python File
-       4.2- Écrire le nom suivant: atelier_seminaire.py
-    5- Clic droit sur atelier
-       4.1- New Python File
-       4.2- Écrire le nom suivant: atelier1.py
-    6- Clic droit sur atelier
-       4.1- New Python File
-       4.2- Écrire le nom suivant: atelier2.py
-
-#### Configuration pour lancer script Python
-    1- En-haut à droit cliquer sur Add Configuration...
-    2- En-haut à gauche cliquer sur le + 
-       2.1- Choisir Python
-       2.2- Dans Script Path aller chercher le fichier atelier_seminaire.py
-       2.3- Cliquer Apply
-       2.4- Cliquer OK
-       
-#### Test de la fonctionalité
-    1- Cliquer sur le atelier_seminaire.py
-    2- Copier le code du script test.py vers le script atelier_seminaire.py
-    3- Le résultat devrait donner: Hello, boto3! (Seminaire)
 
