@@ -1,6 +1,7 @@
 # Le code suivant vient de la documentation de Boto3. 
 # Il est utilisait pour principe de test de fonctionnalité de l'environnement de travail.
 # https://boto3.amazonaws.com/v1/documentation/api/latest/guide/sqs.html
+
 import boto3
 
 sqs = boto3.resource('sqs')
