@@ -46,7 +46,7 @@
     2- Cliquer en bas sur Terminal > Écrire la commande suivant : pip3 install boto3
 
 #### Configuration du AWS CLI
-#####*Access Key ID et Secret Key ID vous seront donnés, lors du séminaire sur Boto3*
+    *Access Key ID et Secret Key ID vous seront donnés, lors du séminaire sur Boto3*
     1- Cliquer en bas sur Terminal
     2- sudo apt-get update
     3- sudo apt-get install awscli
@@ -104,7 +104,7 @@
     2- Cliquer en bas sur Terminal > Écrire la commande suivant: pip3 install boto3
     
 #### Installation de AWS CLI
-#####*Access Key ID et Secret Key ID vous seront donnés, lors du séminaire sur Boto3*
+    *Access Key ID et Secret Key ID vous seront donnés, lors du séminaire sur Boto3*
     1- Aller à https://aws.amazon.com/fr/cli/
     2- Cliquer à gauche sur Téléchargez et exécutez l'installateur Windows
     3- Double cliquer pour le fichier pour l’installer
@@ -114,6 +114,7 @@
        4.3- Entrer Secret Key ID
        4.4- Dans Region entrer: ca-central-1
        4.5- Dans Format entrer: JSON
+  
        
 #### Tester, si tout fonctionne
    1- Suivre les étapes dans le Wiki - Test Boto3
