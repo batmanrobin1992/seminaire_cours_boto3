@@ -60,7 +60,7 @@
        5.6- cat ~/.aws/credentials (Vérification du Access Key ID et du Secret Key ID)
        
 #### Tester, si tout fonctionne
-   1- Suivre les étapes dans le Wiki - Test Boto3
+    1- Suivre les étapes dans le Wiki - Test Boto3
        
 ### Installation sur Windows 10
 
@@ -117,5 +117,5 @@
   
        
 #### Tester, si tout fonctionne
-   1- Suivre les étapes dans le Wiki - Test Boto3
+    1- Suivre les étapes dans le Wiki - Test Boto3
 
